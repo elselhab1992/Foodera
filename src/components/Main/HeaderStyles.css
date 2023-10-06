@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400&display=swap");
+
+header {
+  background: url("./../../assets/images/pasta.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 100px 0 auto;
+  text-align: left;
+  overflow: hidden;
+}
+
+.heading {
+  margin-top: 100px;
+  font-family: Tajawal;
+  margin-bottom: 50px;
+}
+
+.heading h1 {
+  font-size: 60px;
+  line-height: 1;
+  font-weight: bold;
+  color: #310812;
+}
+
+.heading p {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.order {
+  font-weight: bold;
+  color: #fff;
+  background-color: #ab3550;
+  border: 2px solid #ab3550;
+  width: 150px;
+  text-align: center;
+  padding: 8px;
+  margin-top: 10px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.order:hover {
+  background-color: transparent;
+  color: #ab3550;
+  transition: 0.2s ease-in-out;
+}
+
+.learn {
+  background-color: #fff;
+  color: black;
+  border: 1px solid darkgray;
+  width: 150px;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.learn:hover {
+  background-color: #fff;
+  color: #ab3550;
+  transition: 0.2s ease-in-out;
+  border: 3px solid #ab3550;
+}
+
+.banner {
+  width: 950px;
+  height: 600px;
+}
+
+@media screen and (max-width: 480px) {
+  .heading h1 {
+    font-size: 30px;
+  }
+}

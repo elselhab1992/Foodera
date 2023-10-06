@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400&display=swap");
+
+.bottom-section {
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+  font-family: Tajawal;
+}
+
+.bottom-section h2 {
+  color: #310812;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.bottom-section h3 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 22px;
+  color: #310812;
+}
+
+.bottom-section p {
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.baked {
+  background: url("./../../assets/images/bread.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  height: 250px;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.baked h3,
+button {
+  margin-top: 70px;
+  font-size: 20px;
+}
+
+.baked button {
+  font-weight: bold;
+  color: #fff;
+  background-color: #ab3550;
+  border: 2px solid #ab3550;
+  width: 150px;
+  text-align: center;
+  padding: 8px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.baked button:hover {
+  background-color: transparent;
+  color: #ab3550;
+  transition: 0.2s ease-in-out;
+}
+
+.subscribe-section {
+  width: 100%;
+  height: auto;
+}
+
+.subscribe-section h3 {
+  width: 60%;
+  font-weight: bold;
+  font-size: 40px;
+  color: #310812;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.subscribe-section p {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.subscribe-section input {
+  width: 420px;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid darkgrey;
+}
+
+.subscribe-section input:focus {
+  border: 1px solid black;
+}
+
+.subscribe-section span {
+  margin-left: 20px;
+}
+
+.subscribe-section button {
+  font-weight: bold;
+  color: #fff;
+  background-color: #ab3550;
+  border: 2px solid #ab3550;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.subscribe-section button:hover {
+  background-color: transparent;
+  color: #ab3550;
+  transition: 0.2s ease-in-out;
+}
